@@ -1,0 +1,49 @@
+table td {
+    color:blue;
+    width: 150px;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 100px;
+}
+
+table div {
+    border: 2px solid blue;
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    transition: width 400ms, height 400ms, background-color 400ms, box-shadow 800ms, font-size 400ms;
+    font-size: 40px;
+}
+
+table div:hover {
+    background-color: blue;
+    border: 1px solid yellow;
+    color:yellow;
+    width: 140px;
+    height: 140px;
+    line-height: 140px;
+    text-align: center;
+    box-shadow: 5px 5px 20px 2px yellow, -5px -5px 20px 2px yellow;
+    font-size: 80px
+}
+
+.vencedor {
+    background-color: blue;
+    border: 1px solid yellow;
+    color:yellow;
+    width: 140px;
+    height: 140px;
+    line-height: 140px;
+    text-align: center;
+    box-shadow: 5px 5px 20px 2px yellow, -5px -5px 20px 2px yellow;
+    font-size: 80px  
+}
